@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="notes.css" />
+  </head>
+  <body>
+    <div class="container active">
+      <header>
+        <button id="add" title="Add new note">
+          <i class="fi fi-plus-a"></i>
+          <br />
+        </button>
+        <h3>Notes</h3>
+        <button>save</button>
+        <div class="buttons">
+          <button id="removenote" title="Delete note">
+            <i class="fi fi-trash"></i>
+          </button>
+          <button id="save" title="Save note">
+            <i class="fi fi-save"></i>
+          </button>
+        </div>
+      </header>
+      <aside>
+        <span id="toggle">
+          <i class="fi fi-angle-dobule-left"></i>
+        </span>
+        <div class="search-box">
+          <i class="fi fi-search"></i>
+          <input type="text" id="search" placeholder="Search" />
+        </div>
+        <li>My notes</li>
+        <li>javaScript</li>
+        <li>HTML</li>
+        <li>REACT</li>
+        <li>My project Ideas</li>
+        <li>MY daily worklogs</li>
+
+        <ul id="notelist"></ul>
+      </aside>
+      <main>
+        <textarea
+          name="noteinput"
+          id="noteinput"
+          cols="50"
+          rows="50"
+          placeholder="Create new note"
+        ></textarea>
+      </main>
+    </div>
+  </body>
+</html>
